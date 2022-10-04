@@ -2,6 +2,7 @@ describe('index.js', function () {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
       expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
+      const cats = ["Milo", "Otis", "Garfield"];
     });
   });
 
